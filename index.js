@@ -35,7 +35,7 @@ function writeToFile(fileName, data) {``
 
 function start() {
     inquirer.prompt(questions).then((answers)=>{
-        const string = generateMarkdown(answers);
+        const string = shapes.js(answers);
         writeToFile("logo.svg", string);
     })
         
