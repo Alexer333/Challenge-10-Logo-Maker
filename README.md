@@ -22,3 +22,8 @@
   ## Walkthrough
   
     Link will bee pasted here when finished
+
+  ## Contact Me!
+  Have questions about the project? Contact me at: 
+  * alex.rybak333@gmail.com
+  * https://github.com/Alexer333
