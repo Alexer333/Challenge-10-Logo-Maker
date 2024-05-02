@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require(`fs`);
-const shapesjs = require('./lib/shapes');
+const shapes = require('./lib/shapes');
 
 const questions = [
     //3 characters, text color (keyword or hex), shape (circle triangle square 
@@ -36,7 +36,7 @@ function writeToFile(fileName, data) {``
 
 function start() {
     inquirer.prompt(questions).then((answers)=>{
-        const string = shapesjs(answers);
+        const string = shapes(answers);
         writeToFile("logo.svg", string);
     })
         
